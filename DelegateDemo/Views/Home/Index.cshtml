@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Register User</h1>
+</div>
+
+<form action="/home/RegisterUser" method="post">
+    <label for="FirstName">First Name</label>
+    <input type="text" name="FirstName" />
+
+    <label for="LastName">Last Name</label>
+    <input type="text" name="LastName" />
+
+    <label for="MobileNumber">Mobile Number</label>
+    <input type="text" name="MobileNumber" />
+
+    <input type="submit" name="submit" />
+</form>
